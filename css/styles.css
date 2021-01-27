@@ -1,0 +1,138 @@
+/* COLORS */
+
+/*
+3a3a3a DARK GREY
+6fff00 NEON GREEN
+5cdee9 LIGHT BLUE
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+
+body {
+    font-family: 'Nunito', sans-serif;
+    color: black;
+}
+
+.scroll {
+    height: 80vh;
+    width: 100%;
+}
+
+.logo {
+    /*height: 20vh;*/
+    float: left;
+    /*
+    padding-left: 12%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+*/
+
+}
+
+.widgets {
+    height: 20vh;
+    width: 100%;
+    background-color: #333333;
+}
+
+
+
+h1 {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.topBar {
+    background-color: #3a3a3a;
+    text-align: center;
+    padding: 0.5%;
+    padding-top: 20px;
+    width: 100%;
+    font-family: 'Rock Salt', cursive;
+    font-size: 2em;
+}
+
+.bottomBar {
+    background-color: black;
+    width: 100%;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    font-size: 10px;
+    height: 30px;
+    padding-top: 7px;
+}
+
+footer {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.bottomBar a {
+    color: white;
+    font-size: 10px;
+    text-decoration: underline;
+}
+
+.navbar {
+    background-color: black !important;
+}
+
+.topBar h4 {
+    color: white;
+    font-size: 0.3em;
+    font-family: 'Nunito', sans-serif;
+}
+
+.greenBar {
+    background-color: #6fff00;
+    height: 3px;
+    width: 100hv;
+}
+
+.blueBar {
+    background-color: #5cdee9;
+    height: 3px;
+    width: 100hv;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #ffffff !important;
+    text-align: center;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 2.5rem !important;
+}
+
+a {
+    color: #696969;
+}
+
+a:hover {
+    color: #3d3d3d;
+}
+
+.mainContent {
+    float: left;
+    padding: 3%;
+}
+
+.submit {
+    background-color: #5cdee9;
+    color: #3d3d3d;
+    padding: 10px;
+    width: 150px;
+    font-weight: 600;
+    border-radius: 0.3em;
+}
+
+input {
+    color: #3d3d3d;
+    padding: 10px;
+    width: 250px;
+    border-radius: 0.3em;
+}
