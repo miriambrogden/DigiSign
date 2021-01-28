@@ -35,7 +35,7 @@ include $dir."inc/logoBar.php";
             // get unique url for user
             echo "<p><strong>Thank you! You will recieve an email shortly with password reset instructions.</strong></p>";
             $hashEmail = hash("md5", $temp);
-            $uniqueURL = "http://miriamsnow.com/digisign/passwordResetScript.php?id=".$hashEmail;
+            $uniqueURL = "https://digisign.miriamsnow.com/passwordResetScript.php?id=".$hashEmail;
 
             //send email
             $boundary = md5("sanwebe");
