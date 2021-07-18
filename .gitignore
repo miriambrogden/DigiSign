@@ -1,3 +1,4 @@
 *.png
 *.jpg
 inc/connection.php
+inc/googleAnalytics.php

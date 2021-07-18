@@ -25,7 +25,10 @@
     <link rel="stylesheet" href="<?php echo $dir; ?>css/scroller.css">
 
 </head>
+
 <?PHP
+include $dir."inc/googleAnalytics.php";
+
 $query = "SELECT permission FROM user WHERE email='".$login_session."'";
 $result = $link->query($query);
 while($row = $result->fetch_assoc()) {
